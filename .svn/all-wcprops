@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/automation_test/!svn/ver/12656/test_tools/docServer
+END
+code.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/automation_test/!svn/ver/12719/test_tools/docServer/code.py
+END
+start.bat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/automation_test/!svn/ver/12689/test_tools/docServer/start.bat
+END
+sync.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/automation_test/!svn/ver/12717/test_tools/docServer/sync.sh
+END

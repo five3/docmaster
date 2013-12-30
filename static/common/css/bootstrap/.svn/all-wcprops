@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/automation_test/!svn/ver/12668/test_tools/resourceServer/static/common/css/bootstrap
+END
+bootstrap-theme.css
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/automation_test/!svn/ver/12664/test_tools/resourceServer/static/common/css/bootstrap/bootstrap-theme.css
+END
+bootstrap.css
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/automation_test/!svn/ver/12664/test_tools/resourceServer/static/common/css/bootstrap/bootstrap.css
+END
+bootstrap-theme.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/automation_test/!svn/ver/12664/test_tools/resourceServer/static/common/css/bootstrap/bootstrap-theme.min.css
+END
+bootstrap.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/automation_test/!svn/ver/12664/test_tools/resourceServer/static/common/css/bootstrap/bootstrap.min.css
+END

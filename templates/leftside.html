@@ -1,0 +1,25 @@
+$def with(data_dict)
+	<div class="container">
+	<div class="row">
+		<!-- 模板侧边栏内容 -->
+		<div class="col-md-3" id="leftside"> 
+			<div class="affix" style="width:15%">
+			<div class="list-group">
+			$ render_content = data_dict.get('render_content', {})	
+			$ item_list = render_content.get('item_list', [])
+			$if item_list:
+				$ i = 0
+				$for item in item_list:
+					$if i==0:
+						$ is_active = 'active'
+						$ i = 1
+					$else:
+						$ is_active = ''
+					<a href="javascript:void(0);" itemid="$item.get('id', 0)" class="list-group-item $is_active">$item.get('title', 'undefined')</a>
+			$else:
+				<a href="/docmaster" itemid="99" class="list-group-item">返回首页</a>
+
+			</div></div>
+		</div>
+		<!-- 模板侧边栏结束 -->
+		

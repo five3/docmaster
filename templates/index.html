@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Hello SyntaxHighlighter</title>
+	<!-- CSS Files Load -->
+	<link type="text/css" rel="stylesheet" href="static/common/css/syntaxhighlighter/shCoreDefault.css"/>
+	<!-- JS Files Load -->
+	<script type="text/javascript" src="static/common/js/libs/jquery/jquery-1.8.0.min.js"></script>
+	<!-- syntaxhighlighter Files Load -->
+	<script type="text/javascript" src="static/common/js/libs/syntaxhighlighter/shCore.js"></script>
+	<script type="text/javascript" src="static/common/js/libs/syntaxhighlighter/shBrushJava.js"></script>	
+	<!-- register onready event  -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+		SyntaxHighlighter.config.clipboardSwf = 'static/common/js/libs/syntaxhighlighter/clipboard.swf';
+		SyntaxHighlighter.all();	
+		});
+	</script>
+</head>
+
+<body style="background: white; font-family: Helvetica">
+
+<h1>Hello SyntaxHighlighter</h1>
+<pre class="brush: java;">
+function helloSyntaxHighlighter()
+{
+	return "hi!";
+}
+</pre>
+
+</html>

@@ -1,0 +1,48 @@
+	</div> <!-- .row -->
+	</div>
+	<!-- 模板页脚内容 -->
+	<hr>
+	<div class="container">		
+		<footer>
+			<p>Copyright© DANGDANG 2013</p>
+		</footer>	
+	</div>
+	<!-- 模板页脚结束 -->
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/static/common/js/libs/jquery/jquery-1.10.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/static/common/js/libs/bootstrap/bootstrap.min.js"></script>
+    <!-- syntaxhighlighter Files Load -->
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shCore.js"></script>
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushJava.js"></script>	
+	<!-- register onready event  -->
+	<script type="text/javascript">
+		$$(document).ready(function(){
+			SyntaxHighlighter.config.clipboardSwf = "/static/common/js/libs/syntaxhighlighter/clipboard.swf";
+			SyntaxHighlighter.all();	
+			$$("#leftside .list-group a").click(
+				function(){										
+					$$(this).parent().children("a").removeClass("active");
+					$$(this).addClass("active");
+					$$.ajax({ 
+						url: "/docmaster/", 
+						async: true,
+						type: "POST",
+						data: {
+							"type": "item",
+							"itemid": $$(this).attr('itemid')
+						},
+						contentType: "application/x-www-form-urlencoded",		
+						context: this, 		
+						cache: false,
+						success: function(data){
+							var json = eval(data)
+        					$$("#rightbody").html(json[0].item_content);       				
+      					},
+					});      					
+			});
+		});
+	</script>
+  </body>
+</html>

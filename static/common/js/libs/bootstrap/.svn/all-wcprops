@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/automation_test/!svn/ver/12665/test_tools/resourceServer/static/common/js/libs/bootstrap
+END
+bootstrap.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/automation_test/!svn/ver/12665/test_tools/resourceServer/static/common/js/libs/bootstrap/bootstrap.js
+END
+bootstrap.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/automation_test/!svn/ver/12665/test_tools/resourceServer/static/common/js/libs/bootstrap/bootstrap.min.js
+END
