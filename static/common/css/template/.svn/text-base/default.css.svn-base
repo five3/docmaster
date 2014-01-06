@@ -100,7 +100,7 @@ small {
 .bs-docs-home, .bs-header {
 	color: #cdbfe3;
 	background-color: #563d7c;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAMgAgMAAACmHu77AAAAA3NCS¡­YusVAlbTM067wR/Ox/knq/7msuTmmvVGZpIvxR9SO3/wNsWO54W+w2hwAAAABJRU5ErkJggg==);
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAMgAgMAAACmHu77AAAAA3NCSï¿½ï¿½YusVAlbTM067wR/Ox/knq/7msuTmmvVGZpIvxR9SO3/wNsWO54W+w2hwAAAABJRU5ErkJggg==);
 }
 
 .bs-sidebar .nav .nav {
@@ -127,4 +127,13 @@ small {
 
 .bs-sidebar .nav a {
 	
+}
+.size-xg {
+	font-size: 21px;
+}
+.size-lg {
+	font-size: 18px;
+}
+.size-sm {
+	font-size: 12px;
 }

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/repos/automation_test/!svn/ver/12672/test_tools/docServer/templates
+/repos/automation_test/!svn/ver/12763/test_tools/docServer/templates
 END
 leftside.html
 K 25
@@ -13,7 +13,7 @@ foot.html
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/repos/automation_test/!svn/ver/12718/test_tools/docServer/templates/foot.html
+/repos/automation_test/!svn/ver/12763/test_tools/docServer/templates/foot.html
 END
 index.html
 K 25
@@ -31,11 +31,11 @@ home.html
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/repos/automation_test/!svn/ver/12712/test_tools/docServer/templates/home.html
+/repos/automation_test/!svn/ver/12763/test_tools/docServer/templates/home.html
 END
 manage.html
 K 25
 svn:wc:ra_dav:version-url
 V 80
-/repos/automation_test/!svn/ver/12712/test_tools/docServer/templates/manage.html
+/repos/automation_test/!svn/ver/12763/test_tools/docServer/templates/manage.html
 END

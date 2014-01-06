@@ -7,5 +7,5 @@ pre_url = '/docmaster'
 urls = (
     pre_url + '/?',                        pre_fix + 'DocMaster.Home',
     pre_url + '/manage',                        pre_fix + 'DocMaster.Manage',
-
+    pre_url + '/search',                        pre_fix + 'DocMaster.Search',
 )

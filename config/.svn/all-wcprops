@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/repos/automation_test/!svn/ver/12672/test_tools/docServer/config
+/repos/automation_test/!svn/ver/12763/test_tools/docServer/config
 END
 __init__.py
 K 25
@@ -19,5 +19,5 @@ url.py
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/repos/automation_test/!svn/ver/12712/test_tools/docServer/config/url.py
+/repos/automation_test/!svn/ver/12763/test_tools/docServer/config/url.py
 END

@@ -1,14 +1,14 @@
 10
 
 dir
-12716
+12765
 http://svn.dangdang.com/repos/automation_test/test_tools/resourceServer/static/docServer/js/views
 http://svn.dangdang.com/repos/automation_test
 
 
 
-2013-12-24T07:15:35.306971Z
-12658
+2014-01-06T11:50:52.461818Z
+12765
 chenxiaowu
 
 
@@ -25,4 +25,106 @@ chenxiaowu
 
 
 0701fecc-f04c-47d5-a77a-f3c1d874e526
+
+request.js
+file
+
+
+
+
+2014-01-06T11:51:44.729127Z
+b499e5ede7cd778f2e0733e038496faa
+2014-01-06T11:50:52.461818Z
+12765
+chenxiaowu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1175
+
+response.js
+file
+
+
+
+
+2014-01-06T11:51:44.729127Z
+43218ffbe9020a35391f3761ec39a0c6
+2014-01-06T11:50:52.461818Z
+12765
+chenxiaowu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+491
+
+event.js
+file
+
+
+
+
+2014-01-06T11:51:44.729127Z
+d41d8cd98f00b204e9800998ecf8427e
+2014-01-06T11:50:52.461818Z
+12765
+chenxiaowu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
 

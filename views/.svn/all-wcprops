@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/repos/automation_test/!svn/ver/12673/test_tools/docServer/views
+/repos/automation_test/!svn/ver/12763/test_tools/docServer/views
 END
 __init__.py
 K 25
@@ -13,5 +13,5 @@ DocMaster.py
 K 25
 svn:wc:ra_dav:version-url
 V 77
-/repos/automation_test/!svn/ver/12719/test_tools/docServer/views/DocMaster.py
+/repos/automation_test/!svn/ver/12763/test_tools/docServer/views/DocMaster.py
 END

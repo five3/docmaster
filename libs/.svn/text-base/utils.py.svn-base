@@ -16,3 +16,9 @@ def model_to_object(model):
 def object_to_json(*object):
     import json
     return json.dumps(object)
+
+def mark_content(content):
+    import markdown
+    return markdown.markdown(content)
+
+    

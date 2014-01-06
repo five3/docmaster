@@ -1,14 +1,14 @@
 10
 
 dir
-12656
+12766
 http://svn.dangdang.com/repos/automation_test/test_tools/docServer
 http://svn.dangdang.com/repos/automation_test
 
 
 
-2013-12-24T05:13:09.989209Z
-12656
+2014-01-06T11:53:10.271953Z
+12766
 chenxiaowu
 
 
@@ -28,7 +28,7 @@ chenxiaowu
 
 code.py
 file
-12719
+
 
 
 
@@ -62,7 +62,7 @@ chenxiaowu
 
 start.bat
 file
-12689
+
 
 
 
@@ -102,7 +102,7 @@ dir
 
 sync.sh
 file
-12717
+
 
 
 
@@ -136,30 +136,6 @@ chenxiaowu
 
 controllers
 dir
-
-static
-dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-deleted
 
 libs
 dir

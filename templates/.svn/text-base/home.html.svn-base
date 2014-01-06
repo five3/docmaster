@@ -7,7 +7,7 @@ $:render.leftside(data_dict)
 			$ render_content = data_dict.get('render_content', {})					
 			$ item_content = render_content.get('item_content', '')
 			$if item_content:
-				$item_content
+				$:item_content
 			$else:
 				<div>
 					<h1>No Default Content</h1>

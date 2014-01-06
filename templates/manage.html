@@ -2,12 +2,16 @@
 $:render.header(data_dict)
 $:render.leftside(data_dict)
 
-		<!-- 自定义主体部分 -->
 		<div class="col-md-9 min-height-600" id="rightbody">
+			$ render_content = data_dict.get('render_content', {})					
+			$ item_content = render_content.get('item_content', '')
+			$if item_content:
+				$:item_content
+			$else:
 				<div>
-					<h1>Manage Function Coming Soon ...</h1>
+					<h1>No Default Content</h1>
 					<pre class="brush: java;">
-					function manageModuleIsNotComplete()
+					function noDefaultContentForYou()
 					{
 						return "hi, please contact to the admin!";
 					}

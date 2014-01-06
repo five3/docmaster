@@ -1,14 +1,14 @@
 10
 
 dir
-12673
+12766
 http://svn.dangdang.com/repos/automation_test/test_tools/docServer/models
 http://svn.dangdang.com/repos/automation_test
 
 
 
-2013-12-24T08:35:04.302809Z
-12673
+2014-01-06T11:53:10.271953Z
+12766
 chenxiaowu
 
 
@@ -26,16 +26,16 @@ chenxiaowu
 
 0701fecc-f04c-47d5-a77a-f3c1d874e526
 
-Item.py
+Base.py
 file
-12712
 
 
 
-2013-12-26T08:39:50.609490Z
-3a18a3cde38881da6562071f702ac842
-2013-12-26T09:56:47.331325Z
-12712
+
+2014-01-06T11:54:46.683416Z
+c9546335417d9e7110de477c3202a07a
+2014-01-06T11:53:10.271953Z
+12766
 chenxiaowu
 
 
@@ -58,11 +58,45 @@ chenxiaowu
 
 
 
-503
+159
+
+Item.py
+file
+
+
+
+
+2014-01-06T11:51:30.572786Z
+30f218f9391f732723f85347065547e8
+2014-01-06T11:50:22.389843Z
+12763
+chenxiaowu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+823
 
 __init__.py
 file
-12712
+
 
 
 
@@ -96,14 +130,14 @@ chenxiaowu
 
 Project.py
 file
-12712
 
 
 
-2013-12-26T08:09:12.402322Z
-7de0de31d9713955cba833c7398e9c61
-2013-12-26T09:56:47.331325Z
-12712
+
+2014-01-06T11:51:30.572786Z
+ffc018ec4e15c996d557fef9788e1141
+2014-01-06T11:50:22.389843Z
+12763
 chenxiaowu
 
 
@@ -126,5 +160,5 @@ chenxiaowu
 
 
 
-42
+476
 

@@ -1,14 +1,14 @@
 10
 
 dir
-12672
+12766
 http://svn.dangdang.com/repos/automation_test/test_tools/docServer/config
 http://svn.dangdang.com/repos/automation_test
 
 
 
-2013-12-24T08:32:53.735563Z
-12672
+2014-01-06T11:50:22.389843Z
+12763
 chenxiaowu
 
 
@@ -62,7 +62,7 @@ chenxiaowu
 
 settings.py
 file
-12719
+
 
 
 
@@ -96,14 +96,14 @@ chenxiaowu
 
 url.py
 file
-12712
 
 
 
-2013-12-26T02:26:21.639187Z
-0e93dccfc0afe68912dbba7203f4400d
-2013-12-26T09:56:47.331325Z
-12712
+
+2014-01-06T11:51:30.604036Z
+f54a04156a744304476d9a23b017189a
+2014-01-06T11:50:22.389843Z
+12763
 chenxiaowu
 
 
@@ -126,5 +126,5 @@ chenxiaowu
 
 
 
-272
+349
 

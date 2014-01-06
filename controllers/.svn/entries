@@ -1,14 +1,14 @@
 10
 
 dir
-12672
+12766
 http://svn.dangdang.com/repos/automation_test/test_tools/docServer/controllers
 http://svn.dangdang.com/repos/automation_test
 
 
 
-2013-12-24T08:32:53.735563Z
-12672
+2014-01-06T11:53:10.271953Z
+12766
 chenxiaowu
 
 
@@ -28,14 +28,14 @@ chenxiaowu
 
 HomeDistribution.py
 file
-12712
 
 
 
-2013-12-26T09:55:46.525087Z
-a6552f2dae0683df3c4e51b8b3a60bd5
-2013-12-26T09:56:47.331325Z
-12712
+
+2014-01-06T11:51:30.682162Z
+86290a46c14296582a4a2af03f8bf7b5
+2014-01-06T11:50:22.389843Z
+12763
 chenxiaowu
 
 
@@ -58,18 +58,18 @@ chenxiaowu
 
 
 
-1072
+160
 
 ManageDistribution.py
 file
-12712
 
 
 
-2013-12-26T02:32:53.476000Z
-b89af6bdd269f9116bd524b2fc5ffc7a
-2013-12-26T09:56:47.331325Z
-12712
+
+2014-01-06T11:51:30.697787Z
+e84af356c14abb2c04e0619527a5a453
+2014-01-06T11:50:22.389843Z
+12763
 chenxiaowu
 
 
@@ -92,7 +92,41 @@ chenxiaowu
 
 
 
-132
+2361
+
+commonDistribution.py
+file
+
+
+
+
+2014-01-06T11:54:46.714667Z
+0d82b8f0bd40de4fa7daae83f1199eac
+2014-01-06T11:53:10.271953Z
+12766
+chenxiaowu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1062
 
 __init__.py
 file
@@ -127,4 +161,38 @@ chenxiaowu
 
 
 0
+
+SearchDistribution.py
+file
+
+
+
+
+2014-01-06T11:54:46.730292Z
+cc4082a8c36357475a2263fc97b083b6
+2014-01-06T11:53:10.271953Z
+12766
+chenxiaowu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1162
 

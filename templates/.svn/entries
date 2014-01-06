@@ -1,14 +1,14 @@
 10
 
 dir
-12672
+12766
 http://svn.dangdang.com/repos/automation_test/test_tools/docServer/templates
 http://svn.dangdang.com/repos/automation_test
 
 
 
-2013-12-24T08:32:53.735563Z
-12672
+2014-01-06T11:50:22.389843Z
+12763
 chenxiaowu
 
 
@@ -28,7 +28,7 @@ chenxiaowu
 
 leftside.html
 file
-12712
+
 
 
 
@@ -62,14 +62,14 @@ chenxiaowu
 
 foot.html
 file
-12718
 
 
 
-2013-12-26T10:28:43.471214Z
-7930992b93e701cf72f9298924f1a165
-2013-12-26T10:28:54.323943Z
-12718
+
+2014-01-06T11:51:30.869663Z
+a8a22e2596d2a919ffe4200cce42cd97
+2014-01-06T11:50:22.389843Z
+12763
 chenxiaowu
 
 
@@ -92,11 +92,11 @@ chenxiaowu
 
 
 
-1662
+2136
 
 index.html
 file
-12713
+
 
 
 
@@ -130,7 +130,7 @@ chenxiaowu
 
 header.html
 file
-12712
+
 
 
 
@@ -164,14 +164,14 @@ chenxiaowu
 
 home.html
 file
-12712
 
 
 
-2013-12-26T09:54:56.617879Z
-63faf6cfb03549474f7756599f3ec564
-2013-12-26T09:56:47.331325Z
-12712
+
+2014-01-06T11:51:30.885288Z
+5b3be1c032938d4dfbcafea6c832c403
+2014-01-06T11:50:22.389843Z
+12763
 chenxiaowu
 
 
@@ -194,18 +194,18 @@ chenxiaowu
 
 
 
-623
+624
 
 manage.html
 file
-12712
 
 
 
-2013-12-26T09:44:02.933453Z
-4256cd1c503b6c9a2b2ea74b9000a172
-2013-12-26T09:56:47.331325Z
-12712
+
+2014-01-06T11:51:30.885288Z
+63ae0725ff2e7318072559580ecbe1be
+2014-01-06T11:50:22.389843Z
+12763
 chenxiaowu
 
 
@@ -228,5 +228,5 @@ chenxiaowu
 
 
 
-463
+590
 
