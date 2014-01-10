@@ -19,6 +19,14 @@ def object_to_json(*object):
 
 def mark_content(content):
     import markdown
-    return markdown.markdown(content)
+    import markdowncode
+    configs = {}
+    myext = markdowncode.CodeExtension(configs=configs)  ##自定义插件
+    return markdown.markdown(content, extensions=[myext])
+
+def template_to_html(template, *pars):
+    import web
+    template = web.template.Template(template)
+    return template(*pars)
 
     

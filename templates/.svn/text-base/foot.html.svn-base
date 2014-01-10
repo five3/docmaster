@@ -15,7 +15,18 @@
     <script src="/static/common/js/libs/bootstrap/bootstrap.min.js"></script>
     <!-- syntaxhighlighter Files Load -->
 	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shCore.js"></script>
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushPlain.js"></script>	
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushCpp.js"></script>	
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushCSharp.js"></script>	
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushCss.js"></script>	
 	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushJava.js"></script>	
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushJScript.js"></script>	
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushPhp.js"></script>	
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushPython.js"></script>	
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushRuby.js"></script>	
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushSql.js"></script>
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushVb.js"></script>	
+	<script type="text/javascript" src="/static/common/js/libs/syntaxhighlighter/shBrushXml.js"></script>	
     <!-- User define Files Load -->
     <script type="text/javascript" src="/static/common/js/libs/utils/core.js"></script>	
     <script type="text/javascript" src="/static/docServer/js/libs/utils.js"></script>
@@ -27,27 +38,6 @@
 		$$(document).ready(function(){
 			SyntaxHighlighter.config.clipboardSwf = "/static/common/js/libs/syntaxhighlighter/clipboard.swf";
 			SyntaxHighlighter.all();	
-			$$("#leftside .list-group a").click(
-				function(){										
-					$$(this).parent().children("a").removeClass("active");
-					$$(this).addClass("active");
-					$$.ajax({ 
-						url: "/docmaster/", 
-						async: true,
-						type: "POST",
-						data: {
-							"type": "item",
-							"itemid": $$(this).attr('itemid')
-						},
-						contentType: "application/x-www-form-urlencoded",		
-						context: this, 		
-						cache: false,
-						success: function(data){
-							var json = eval(data)
-        					$$("#rightbody").html(json[0].item_content);       				
-      					},
-					});      					
-			});
 		});
 	</script>
   </body>

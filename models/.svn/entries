@@ -1,14 +1,14 @@
 10
 
 dir
-12766
+12806
 http://svn.dangdang.com/repos/automation_test/test_tools/docServer/models
 http://svn.dangdang.com/repos/automation_test
 
 
 
-2014-01-06T11:53:10.271953Z
-12766
+2014-01-09T09:50:07.607880Z
+12797
 chenxiaowu
 
 
@@ -66,10 +66,10 @@ file
 
 
 
-2014-01-06T11:51:30.572786Z
-30f218f9391f732723f85347065547e8
-2014-01-06T11:50:22.389843Z
-12763
+2014-01-10T02:51:30.654545Z
+615850f8595ebd10f6a7d2751b57c405
+2014-01-09T09:50:07.607880Z
+12797
 chenxiaowu
 
 
@@ -92,7 +92,7 @@ chenxiaowu
 
 
 
-823
+1079
 
 __init__.py
 file
@@ -134,10 +134,10 @@ file
 
 
 
-2014-01-06T11:51:30.572786Z
-ffc018ec4e15c996d557fef9788e1141
-2014-01-06T11:50:22.389843Z
-12763
+2014-01-10T02:51:30.670170Z
+b4c9ca3164b254bf0bcf81ab7ede88c4
+2014-01-09T09:50:07.607880Z
+12797
 chenxiaowu
 
 
@@ -160,5 +160,5 @@ chenxiaowu
 
 
 
-476
+1583
 

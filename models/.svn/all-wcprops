@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/repos/automation_test/!svn/ver/12766/test_tools/docServer/models
+/repos/automation_test/!svn/ver/12797/test_tools/docServer/models
 END
 Base.py
 K 25
@@ -13,7 +13,7 @@ Item.py
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/repos/automation_test/!svn/ver/12763/test_tools/docServer/models/Item.py
+/repos/automation_test/!svn/ver/12797/test_tools/docServer/models/Item.py
 END
 __init__.py
 K 25
@@ -25,5 +25,5 @@ Project.py
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/repos/automation_test/!svn/ver/12763/test_tools/docServer/models/Project.py
+/repos/automation_test/!svn/ver/12797/test_tools/docServer/models/Project.py
 END

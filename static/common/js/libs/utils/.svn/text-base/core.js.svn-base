@@ -34,7 +34,9 @@ function getFormData(formID){
 	var data = '';
 	$('#'+formID+' [name]').each(
 		function(){
-			data += this.name + '=' + encodeURI($(this).val()) + '&';
+			if (this.tagName=='INPUT' || this.tagName=='SELECT' || this.tagName=='TEXTAREA'){
+				data += this.name + '=' + encodeURIComponent($(this).val()) + '&';
+			}			
 		});
 	return data;
 }

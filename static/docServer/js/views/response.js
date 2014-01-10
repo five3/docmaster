@@ -4,6 +4,9 @@ function showPerview(rep){
 		alert(json.message);
 	}else{
 		$('#perviewDiv').html(json.html);
+		SyntaxHighlighter.config.clipboardSwf = "/static/common/js/libs/syntaxhighlighter/clipboard.swf";
+		SyntaxHighlighter.all();
+		$('body').load();
 	}
 }
 
@@ -13,7 +16,7 @@ function showSubmit(rep){
 		alert(json.message);
 	}else{
 		alert(json.html);
-		refresh();
+//		refresh();
 	}
 }
 

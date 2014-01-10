@@ -2,7 +2,7 @@ $def with(data_dict)
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="zh-CN">
 	<head>
-		<title>docMaster--文档管家</title>
+		<title>$data_dict['render_content'].get('title', '首页') docMaster-文档管家</title>
 			<meta charset="utf-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,11 +36,11 @@ $def with(data_dict)
 		  <li class="$data_dict.get('home_active', '')"><a href="/docmaster">首页</a></li>
 		  <li class="$data_dict.get('manage_active', '')"><a href="/docmaster/manage">管理</a></li>
 		  <li class="dropdown">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown">自动化工具<b class="caret"></b></a>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">自动化工具文档<b class="caret"></b></a>
 			<ul class="dropdown-menu">
-			  <li><a href="/docmaster?pid=100&type=project">DDAP工具文档</a></li>
-			  <li><a href="/docmaster?pid=101&type=project">MData工具文档</a></li>
-			  <li><a href="/docmaster?pid=102&type=project">APIOW工具文档</a></li>
+			  <li><a href="/docmaster?pid=100&type=project">DDAP项目文档</a></li>
+			  <li><a href="/docmaster?pid=101&type=project">MData项目文档</a></li>
+			  <li><a href="/docmaster?pid=102&type=project">APIOW项目文档</a></li>
 			</ul>
 		  </li>
 		</ul>

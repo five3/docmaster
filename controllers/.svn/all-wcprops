@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/repos/automation_test/!svn/ver/12766/test_tools/docServer/controllers
+/repos/automation_test/!svn/ver/12797/test_tools/docServer/controllers
 END
 HomeDistribution.py
 K 25
@@ -13,13 +13,13 @@ ManageDistribution.py
 K 25
 svn:wc:ra_dav:version-url
 V 92
-/repos/automation_test/!svn/ver/12763/test_tools/docServer/controllers/ManageDistribution.py
+/repos/automation_test/!svn/ver/12797/test_tools/docServer/controllers/ManageDistribution.py
 END
 commonDistribution.py
 K 25
 svn:wc:ra_dav:version-url
 V 92
-/repos/automation_test/!svn/ver/12766/test_tools/docServer/controllers/commonDistribution.py
+/repos/automation_test/!svn/ver/12797/test_tools/docServer/controllers/commonDistribution.py
 END
 __init__.py
 K 25
