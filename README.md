@@ -12,12 +12,12 @@ function
 * preview support
 * navigate manage[no implement yet]
 
-Help Doc
-----------
-[helpdoc](/docmaster/?pid=97)
-
 setup:
 ----------
+
+Help Doc
+----------
+visit the url after setup succussed (/docmaster/?pid=97)
 
 feedback
 ----------
@@ -38,13 +38,13 @@ five3@163.com
 * 支持文档内容预览
 * 导航管理【暂不支持】
 
-工具帮助文档：
------------
-[helpdoc](/docmaster/?pid=97)
-
-
 安装：
 -----------
+
+
+工具帮助文档：
+-----------
+安装成功后访问url (/docmaster/?pid=97)
 
 反馈：
 -----------
