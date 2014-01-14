@@ -1,14 +1,14 @@
 10
 
 dir
-12806
+12809
 http://svn.dangdang.com/repos/automation_test/test_tools/resourceServer/static/docServer/images/ddap
 http://svn.dangdang.com/repos/automation_test
 
 
 
-2014-01-09T12:49:40.163784Z
-12806
+2014-01-10T03:51:52.670796Z
+12808
 chenxiaowu
 
 
@@ -536,40 +536,6 @@ has-props
 
 3680
 
-run_ele_js.jpg
-file
-
-
-
-
-2014-01-10T02:51:51.639188Z
-a55b4b6bc26bcbb5c74e5c9b408b10e1
-2014-01-08T06:32:59.552225Z
-12783
-chenxiaowu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4862
-
 endif.jpg
 file
 
@@ -604,16 +570,16 @@ has-props
 
 3288
 
-logging.jpg
+run_ele_js.jpg
 file
 
 
 
 
-2014-01-10T02:51:51.654814Z
-4dec0ef0d75ee41af318e0ec666c17ab
-2014-01-08T07:34:05.248543Z
-12785
+2014-01-10T02:51:51.639188Z
+a55b4b6bc26bcbb5c74e5c9b408b10e1
+2014-01-08T06:32:59.552225Z
+12783
 chenxiaowu
 has-props
 
@@ -636,7 +602,7 @@ has-props
 
 
 
-7947
+4862
 
 clear.jpg
 file
@@ -671,6 +637,40 @@ has-props
 
 
 3068
+
+logging.jpg
+file
+
+
+
+
+2014-01-10T02:51:51.654814Z
+4dec0ef0d75ee41af318e0ec666c17ab
+2014-01-08T07:34:05.248543Z
+12785
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7947
 
 alert_cancel2.jpg
 file
@@ -740,6 +740,40 @@ has-props
 
 3395
 
+alert_ok.jpg
+file
+
+
+
+
+2014-01-10T02:51:51.686064Z
+9805acd9e08f609ab98f544291ad524b
+2014-01-08T06:32:59.552225Z
+12783
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3632
+
 check_attribute.jpg
 file
 
@@ -774,16 +808,16 @@ has-props
 
 3382
 
-alert_ok.jpg
+create_page.PNG
 file
 
 
 
 
-2014-01-10T02:51:51.686064Z
-9805acd9e08f609ab98f544291ad524b
-2014-01-08T06:32:59.552225Z
-12783
+2014-01-13T02:42:45.771065Z
+12c5de46fed391a562165566ed9459d4
+2014-01-10T03:51:52.670796Z
+12808
 chenxiaowu
 has-props
 
@@ -806,7 +840,7 @@ has-props
 
 
 
-3632
+11468
 
 highlight.jpg
 file
@@ -842,40 +876,6 @@ has-props
 
 3011
 
-logging2.jpg
-file
-
-
-
-
-2014-01-10T02:51:51.732940Z
-bbdce0c638de9325999b3d8fbde8186d
-2014-01-08T07:39:29.114416Z
-12786
-chenxiaowu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7849
-
 clear2.jpg
 file
 
@@ -910,16 +910,16 @@ has-props
 
 4245
 
-alert_text.jpg
+logging2.jpg
 file
 
 
 
 
-2014-01-10T02:51:51.748565Z
-4d9755bac589210519f718d42b24d075
-2014-01-08T06:32:59.552225Z
-12783
+2014-01-10T02:51:51.732940Z
+bbdce0c638de9325999b3d8fbde8186d
+2014-01-08T07:39:29.114416Z
+12786
 chenxiaowu
 has-props
 
@@ -942,7 +942,7 @@ has-props
 
 
 
-4179
+7849
 
 switch_window3.jpg
 file
@@ -977,6 +977,40 @@ has-props
 
 
 5025
+
+alert_text.jpg
+file
+
+
+
+
+2014-01-10T02:51:51.748565Z
+4d9755bac589210519f718d42b24d075
+2014-01-08T06:32:59.552225Z
+12783
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4179
 
 select.jpg
 file
@@ -1318,6 +1352,40 @@ has-props
 
 5391
 
+create_case.PNG
+file
+
+
+
+
+2014-01-13T02:42:45.771065Z
+6892b879e0c418bfcababfc6954100d8
+2014-01-10T03:51:52.670796Z
+12808
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66513
+
 submit.jpg
 file
 
@@ -1555,6 +1623,40 @@ has-props
 
 
 7718
+
+batch_run.PNG
+file
+
+
+
+
+2014-01-13T02:42:45.771065Z
+46be74a09346b1f715de202d0e339192
+2014-01-10T03:51:52.670796Z
+12808
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+73062
 
 alert_cancel.jpg
 file
@@ -2100,6 +2202,40 @@ has-props
 
 4147
 
+goback2.jpg
+file
+
+
+
+
+2014-01-10T02:51:52.154820Z
+8341a591a840c726ea5ac7f15ef84775
+2014-01-08T06:32:59.552225Z
+12783
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3870
+
 for2.jpg
 file
 
@@ -2167,40 +2303,6 @@ has-props
 
 
 4371
-
-goback2.jpg
-file
-
-
-
-
-2014-01-10T02:51:52.154820Z
-8341a591a840c726ea5ac7f15ef84775
-2014-01-08T06:32:59.552225Z
-12783
-chenxiaowu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3870
 
 get_css2.jpg
 file
@@ -2270,16 +2372,16 @@ has-props
 
 3394
 
-get_hash.jpg
+cancel_check.jpg
 file
 
 
 
 
-2014-01-10T02:51:52.264196Z
-c30dae9db2a07b3e8b727bf3aebc628e
-2014-01-08T08:56:00.702552Z
-12787
+2014-01-10T02:51:52.201696Z
+69572d790fed14e3b561055d1315f082
+2014-01-08T10:53:53.026945Z
+12788
 chenxiaowu
 has-props
 
@@ -2302,41 +2404,7 @@ has-props
 
 
 
-8488
-
-check_attribute2.jpg
-file
-
-
-
-
-2014-01-10T02:51:52.217321Z
-51cdbd83adaf0b2679db00bb5d8979bd
-2014-01-08T06:32:59.552225Z
-12783
-chenxiaowu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4328
+3410
 
 alert_ok2.jpg
 file
@@ -2372,16 +2440,16 @@ has-props
 
 4260
 
-cancel_check.jpg
+check_attribute2.jpg
 file
 
 
 
 
-2014-01-10T02:51:52.201696Z
-69572d790fed14e3b561055d1315f082
-2014-01-08T10:53:53.026945Z
-12788
+2014-01-10T02:51:52.217321Z
+51cdbd83adaf0b2679db00bb5d8979bd
+2014-01-08T06:32:59.552225Z
+12783
 chenxiaowu
 has-props
 
@@ -2404,7 +2472,41 @@ has-props
 
 
 
-3410
+4328
+
+get_hash.jpg
+file
+
+
+
+
+2014-01-10T02:51:52.264196Z
+c30dae9db2a07b3e8b727bf3aebc628e
+2014-01-08T08:56:00.702552Z
+12787
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8488
 
 forward2.jpg
 file
@@ -2746,6 +2848,40 @@ has-props
 
 8442
 
+create_element.PNG
+file
+
+
+
+
+2014-01-13T02:42:45.786691Z
+fa1a4939a8300ca28601ef4134c3e431
+2014-01-10T03:51:52.670796Z
+12808
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+58509
+
 run_js2.jpg
 file
 
@@ -2814,16 +2950,16 @@ has-props
 
 4157
 
-ismultip2.jpg
+workstrut.png
 file
 
 
 
 
-2014-01-10T02:51:52.686077Z
-4773d0fb432ef2ce0ee419b20d4aac0f
-2014-01-08T06:32:59.552225Z
-12783
+2014-01-10T02:51:52.654826Z
+cea1df331fafb65d800093e6197b325c
+2014-01-08T11:31:27.233784Z
+12791
 chenxiaowu
 has-props
 
@@ -2846,7 +2982,7 @@ has-props
 
 
 
-3677
+37274
 
 else.jpg
 file
@@ -2882,16 +3018,16 @@ has-props
 
 2971
 
-workstrut.png
+ismultip2.jpg
 file
 
 
 
 
-2014-01-10T02:51:52.654826Z
-cea1df331fafb65d800093e6197b325c
-2014-01-08T11:31:27.233784Z
-12791
+2014-01-10T02:51:52.686077Z
+4773d0fb432ef2ce0ee419b20d4aac0f
+2014-01-08T06:32:59.552225Z
+12783
 chenxiaowu
 has-props
 
@@ -2914,7 +3050,7 @@ has-props
 
 
 
-37274
+3677
 
 isvisible.jpg
 file
@@ -2950,40 +3086,6 @@ has-props
 
 4075
 
-goto2.jpg
-file
-
-
-
-
-2014-01-10T02:51:52.701702Z
-7dbdd0b5f631ccd65c6632d5af5b2264
-2014-01-08T06:32:59.552225Z
-12783
-chenxiaowu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4950
-
 get_cookie2.jpg
 file
 
@@ -3017,6 +3119,40 @@ has-props
 
 
 4536
+
+goto2.jpg
+file
+
+
+
+
+2014-01-10T02:51:52.701702Z
+7dbdd0b5f631ccd65c6632d5af5b2264
+2014-01-08T06:32:59.552225Z
+12783
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4950
 
 case_caller.jpg
 file
@@ -3052,16 +3188,16 @@ has-props
 
 7512
 
-refresh.jpg
+create_project.PNG
 file
 
 
 
 
-2014-01-10T02:51:52.732952Z
-6211b2326abb02b661b5605c07d7ed80
-2014-01-08T06:32:59.552225Z
-12783
+2014-01-13T02:42:45.786691Z
+e0fa31c9f8edfd54eefbbde5d45f6655
+2014-01-10T03:51:52.670796Z
+12808
 chenxiaowu
 has-props
 
@@ -3084,7 +3220,7 @@ has-props
 
 
 
-3368
+11240
 
 if.jpg
 file
@@ -3120,6 +3256,40 @@ has-props
 
 3517
 
+refresh.jpg
+file
+
+
+
+
+2014-01-10T02:51:52.732952Z
+6211b2326abb02b661b5605c07d7ed80
+2014-01-08T06:32:59.552225Z
+12783
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3368
+
 endfor2.jpg
 file
 
@@ -3153,40 +3323,6 @@ has-props
 
 
 4310
-
-get_url.jpg
-file
-
-
-
-
-2014-01-10T02:51:52.764203Z
-a67a796abdd4027ea6295bcd215c852d
-2014-01-08T06:32:59.552225Z
-12783
-chenxiaowu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3863
 
 exist_click.jpg
 file
@@ -3222,6 +3358,40 @@ has-props
 
 3253
 
+get_url.jpg
+file
+
+
+
+
+2014-01-10T02:51:52.764203Z
+a67a796abdd4027ea6295bcd215c852d
+2014-01-08T06:32:59.552225Z
+12783
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3863
+
 forward.jpg
 file
 
@@ -3255,40 +3425,6 @@ has-props
 
 
 3392
-
-dboperation.jpg
-file
-
-
-
-
-2014-01-10T02:51:52.904830Z
-299ddc8d644d08a87b07f5541b86f488
-2014-01-08T06:32:59.552225Z
-12783
-chenxiaowu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5984
 
 break2.jpg
 file
@@ -3324,14 +3460,14 @@ has-props
 
 4294
 
-check_css2.jpg
+dboperation.jpg
 file
 
 
 
 
-2014-01-10T02:51:52.920455Z
-d07af6a3c3aace438cffa172c69f5e75
+2014-01-10T02:51:52.904830Z
+299ddc8d644d08a87b07f5541b86f488
 2014-01-08T06:32:59.552225Z
 12783
 chenxiaowu
@@ -3356,7 +3492,7 @@ has-props
 
 
 
-4435
+5984
 
 exist_set.jpg
 file
@@ -3392,14 +3528,14 @@ has-props
 
 3833
 
-sleep.jpg
+check_css2.jpg
 file
 
 
 
 
-2014-01-10T02:51:52.936080Z
-76e9402e7070b17c6233c411f59f1f42
+2014-01-10T02:51:52.920455Z
+d07af6a3c3aace438cffa172c69f5e75
 2014-01-08T06:32:59.552225Z
 12783
 chenxiaowu
@@ -3424,7 +3560,7 @@ has-props
 
 
 
-3368
+4435
 
 scroolbar2.jpg
 file
@@ -3459,6 +3595,40 @@ has-props
 
 
 4562
+
+sleep.jpg
+file
+
+
+
+
+2014-01-10T02:51:52.936080Z
+76e9402e7070b17c6233c411f59f1f42
+2014-01-08T06:32:59.552225Z
+12783
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3368
 
 switch_window2.jpg
 file
@@ -3664,40 +3834,6 @@ has-props
 
 3436
 
-refresh2.jpg
-file
-
-
-
-
-2014-01-10T02:51:52.998581Z
-e8cb3ca3f45b1120f41cf29dfdc2472b
-2014-01-08T06:32:59.552225Z
-12783
-chenxiaowu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3911
-
 if2.jpg
 file
 
@@ -3732,14 +3868,14 @@ has-props
 
 3682
 
-get_html2.jpg
+refresh2.jpg
 file
 
 
 
 
 2014-01-10T02:51:52.998581Z
-4992606b300eefdaacab10638fea66a1
+e8cb3ca3f45b1120f41cf29dfdc2472b
 2014-01-08T06:32:59.552225Z
 12783
 chenxiaowu
@@ -3764,7 +3900,7 @@ has-props
 
 
 
-4190
+3911
 
 check_css.jpg
 file
@@ -3799,6 +3935,40 @@ has-props
 
 
 3656
+
+get_html2.jpg
+file
+
+
+
+
+2014-01-10T02:51:52.998581Z
+4992606b300eefdaacab10638fea66a1
+2014-01-08T06:32:59.552225Z
+12783
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4190
 
 get_html4.jpg
 file
@@ -4173,6 +4343,40 @@ has-props
 
 
 2964
+
+create_path.PNG
+file
+
+
+
+
+2014-01-13T02:42:45.786691Z
+137ce7e144884c2bcc65a038cc9cf5b5
+2014-01-10T03:51:52.670796Z
+12808
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10355
 
 break.jpg
 file
@@ -4615,6 +4819,40 @@ has-props
 
 
 4128
+
+view_result.PNG
+file
+
+
+
+
+2014-01-13T02:42:45.786691Z
+f35aa4956a5b97ee23ae2ab34f2cf727
+2014-01-10T03:51:52.670796Z
+12808
+chenxiaowu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+59487
 
 next.jpg
 file
