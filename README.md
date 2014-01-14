@@ -14,6 +14,12 @@ function
 
 setup:
 ----------
+* install python
+* install setuptools、pip
+* install web.py
+* install markdown
+* init Database use the dbfile under dbfile folder
+* modify the DB connection info in setting.py
 
 Help Doc
 ----------
@@ -40,7 +46,12 @@ five3@163.com
 
 安装：
 -----------
-
+* 安装python
+* 安装setuptools、pip
+* 安装web.py
+* 安装markdown
+* 使用dbfile目录下的数据库文件初始化数据库
+* 修改数据库连接信息
 
 工具帮助文档：
 -----------
