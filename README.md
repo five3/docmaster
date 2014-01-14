@@ -1,4 +1,4 @@
-docmarster
+docmaster
 ==========
 
 publish、manage and view document. usual use to publish HELP doc on web. it develop with python + web.py
@@ -30,9 +30,9 @@ feedback
 ----------
 five3@163.com
 
-online URL:
+online demo:
 ----------
-[online](http://testdoc.org/docmaster/)
+[http://testdoc.org/docmaster/](http://testdoc.org/docmaster/)
 
 文档管家：
 ==========
@@ -67,5 +67,5 @@ five3@163.com
 
 Demo：
 -----------
-[online](http://testdoc.org/docmaster/)
+[在线地址： http://testdoc.org/docmaster/](http://testdoc.org/docmaster/)
 ![demo](http://testdoc.org/static/docServer/images/demo.png)
