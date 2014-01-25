@@ -10,23 +10,23 @@ web.config['static_dir'] = os.getenv("RESOURCE_SERVER_ROOT", "../resourceServer/
 web.config['work_dir'] = os.getcwd()
 
 app = web.application(urls, locals())
-#if web.config.get("_session") is None:
-#    from web import utils
-#    store = web.session.DiskStore('sessions')
-#    user = utils.Storage({
-#                          "id": "",
-#                          "name": "",
-#                          "email": "",
-#                          "privilege": "",
-#                          })
-#    session = web.session.Session(app, store, 
-#                                  initializer={
-#                                               "status": 0,
-#                                               "user": user,
-#                                               })
-#    web.config._session = session
-#else:
-#    session = web.config._session
+if web.config.get("_session") is None:
+    from web import utils
+    store = web.session.DiskStore('sessions')
+    user = utils.Storage({
+                          "id": "",
+                          "name": "",
+                          "email": "",
+                          "privilege": "",
+                          })
+    session = web.session.Session(app, store, 
+                                  initializer={
+                                               "status": 0,
+                                               "user": user,
+                                               })
+    web.config._session = session
+else:
+    session = web.config._session
 
 import sys
 print sys.getdefaultencoding()

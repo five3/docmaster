@@ -53,20 +53,21 @@ def submit_action(post_data):
     if 'project_name' in post_data:        ##项目更新
         project_name = post_data.get('project_name', '')
         project_descrip = post_data.get('project_descrip', '')
+
         if not project_name.strip():
             errorCode = -1
             message = "项目名不能为空"
-        elif post_data.get('pid', ''):   ##更新操作
-            if update_project(post_data.get('pid'), project_name, project_descrip, mark_content(project_descrip)):
+        else: 
+            if not post_data.get('pid', ''):   ##没有pid，即新内容
+                pid = insert_project(project_name, project_descrip, "")
+            else:
+                pid = post_data.get('pid')
+            header_html = '<div align="right"><a href="/docmaster?pid=%s">进入项目</a> | <a href="/docmaster/manage?item_id=109&show_pid=%s">编辑</a> | <a href="#commit">评论</a> |<a href="#commit"> 纠错</a></div>' % (pid,pid)            
+            if update_project(pid, project_name, project_descrip, header_html + mark_content(project_descrip)):
                 html = "更新项目成功！"
             else:
                 errorCode = -3
                 message = "更新项目失败,不能重命名！"
-        elif insert_project(project_name, project_descrip, mark_content(project_descrip)):  ##默认插入
-            html = "添加项目成功！"
-        else:
-            errorCode = -2
-            message = "添加项目失败,不能重命名！"
     elif 'item_name' in post_data:     ##内容更新
         pid = post_data.get('project_list', '0')
         item_name = post_data.get('item_name', '')
@@ -77,17 +78,17 @@ def submit_action(post_data):
         if pid=='0':
             errorCode = -1
             message = "项目名不能为空！"      
-        elif post_data.get('item_id', ''):   ##更新操作
-            if update_item(post_data.get('item_id', ''), pid, item_name, item_order, item_content, mark_content(item_content)):
+        else:
+            if not post_data.get('item_id', ''):   ##无数据
+                itemid = insert_item(pid, item_name, item_order, item_content, '')
+            else:
+                itemid = post_data.get('item_id', '')
+            header_html = '<div align="right"><a href="/docmaster/manage?item_id=110&show_itemid=%s">编辑</a> | <a href="#commit">评论</a> |<a href="#commit"> 纠错</a></div>' % itemid                                 
+            if update_item(itemid, pid, item_name, item_order, item_content, header_html + mark_content(item_content)):
                 html = "更内容成功！"
             else:
                 errorCode = -3
-                message = "更新内容失败!"      
-        elif insert_item(pid, item_name, item_order, item_content, mark_content(item_content)):
-            html = '添加内容成功！'
-        else:
-            errorCode = -2
-            message = "添加内容失败！"            
+                message = "更新内容失败!"             
     else:
         errorCode = -3
         message = "传递的参数不正确！"

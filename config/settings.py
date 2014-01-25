@@ -3,13 +3,13 @@
 import web
 import os
 
-db = web.database(dbn='mysql', db='doc_master', user='root', pw='password', charset='utf8', host="10.255.254.129")
+db = web.database(dbn='mysql', db='doc_master', user='root', pw='password', charset='utf8', host="localhost")
 render = web.template.render('templates/', cache=False)
 
 web.config.debug = True
 
 config = web.storage(
-    admin_email='chenxiaowu@dangdang.com',
+    admin_email='five3@163.com',
     site_name = 'docMaster',
     site_desc = 'help doc publish on web',
     site_auther = 'XiaowuChen',    
@@ -20,5 +20,5 @@ web.config['site_info'] = config
 web.template.Template.globals['config'] = config
 web.template.Template.globals['render'] = render
 web.template.Template.globals['db'] = db
-#web.template.Template.globals['session'] = web.config._session
+web.template.Template.globals['session'] = web.config._session
 

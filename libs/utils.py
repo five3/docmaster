@@ -29,4 +29,21 @@ def template_to_html(template, *pars):
     template = web.template.Template(template)
     return template(*pars)
 
+def islogin(user_dict):
+    if not user_dict.get('id'):
+        return False
+    else:
+        return True
+    
+def auth(post_data, user_dict):
+    email = post_data.get('email', '')
+    passwd = post_data.get('passwd', '')
+    if email=='five3@163.com' and passwd=='111111':
+        user_dict['email'] = email
+        user_dict['id'] = 100
+        user_dict['name'] = email.split("@")[0]
+        user_dict['privilege'] = 0
+        return True
+    else:
+        return False
     

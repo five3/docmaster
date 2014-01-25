@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>用户登录   docMaster-文档管家</title>
+	<!-- JS Files Load -->
+	<link rel="stylesheet" href="/static/common/css/bootstrap/bootstrap.min.css">
+	<script type="text/javascript" src="/static/common/js/libs/jquery/jquery-1.8.0.min.js"></script>
+	
+</head>
+
+<body style="background: white; font-family: Helvetica">
+<div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+	
+	<form class="form-horizontal" role="form" action="/docmaster/login" method="POST">
+	  <h1 align="center">用户登录</h1>
+	  <div class="form-group">
+	    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+	    <div class="col-sm-10">
+	      <input type="email" name="email" class="form-control" id="inputEmail3" placeholder="Email">
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+	    <div class="col-sm-10">
+	      <input type="password" name="passwd" class="form-control" id="inputPassword3" placeholder="Password">
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <div class="col-sm-offset-2 col-sm-10">
+	      <div class="checkbox">
+	        <label>
+	          <input type="checkbox"> Remember me
+	        </label>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="form-group">
+	    <div class="col-sm-offset-2 col-sm-10">
+	      <button type="submit" class="btn btn-default">Sign in</button>
+	    </div>
+	  </div>
+	</form>
+	</div>
+	<div class="col-md-4">
+	</div>
+</div>
+</html>
