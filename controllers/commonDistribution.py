@@ -2,6 +2,7 @@
 # coding: utf-8
 from models.Item import *
 from libs.utils import *
+import web
 
 def assign(post_data):
     type = post_data.get('type', 'project')
@@ -17,6 +18,8 @@ def assign(post_data):
             item_content = item_content[0]
         else:
             item_content = {}
+        if not web.config._session.user.get('id', ''):
+            item_content['html'] = item_content.get('html', '').replace('编辑</a>', '</a>')
         return {
                 'item_list' : model_to_object(item_list), 
                 'item_id' : item_id,

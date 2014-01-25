@@ -62,7 +62,7 @@ def submit_action(post_data):
                 pid = insert_project(project_name, project_descrip, "")
             else:
                 pid = post_data.get('pid')
-            header_html = '<div align="right"><a href="/docmaster?pid=%s">进入项目</a> | <a href="/docmaster/manage?item_id=109&show_pid=%s">编辑</a> | <a href="#commit">评论</a> |<a href="#commit"> 纠错</a></div>' % (pid,pid)            
+            header_html = '<div align="right"><a href="/docmaster?pid=%s">进入项目</a> | <a href="#commit">评论</a> | <a href="#commit"> 纠错</a> | <a href="/docmaster/manage?item_id=109&show_pid=%s">编辑</a></div>' % (pid,pid)            
             if update_project(pid, project_name, project_descrip, header_html + mark_content(project_descrip)):
                 html = "更新项目成功！"
             else:
@@ -83,7 +83,7 @@ def submit_action(post_data):
                 itemid = insert_item(pid, item_name, item_order, item_content, '')
             else:
                 itemid = post_data.get('item_id', '')
-            header_html = '<div align="right"><a href="/docmaster/manage?item_id=110&show_itemid=%s">编辑</a> | <a href="#commit">评论</a> |<a href="#commit"> 纠错</a></div>' % itemid                                 
+            header_html = '<div align="right"><a href="#commit">评论</a> | <a href="#commit"> 纠错</a> | <a href="/docmaster/manage?item_id=110&show_itemid=%s">编辑</a></div>' % itemid                                 
             if update_item(itemid, pid, item_name, item_order, item_content, header_html + mark_content(item_content)):
                 html = "更内容成功！"
             else:
