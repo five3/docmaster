@@ -27,18 +27,6 @@ def assign(post_data):
                 'title' : item_content.get('title', ''),
                 'pid' : pid,
                 }            
-#    elif type == 'item':
-#        itemid = post_data.get('itemid', '0')
-#        item_content = get_item_content(itemid)
-#        if item_content:
-#            item_content = item_content[0]
-#        else:
-#            item_content = {}
-#        return {
-#                'item_content' : item_content.get('html', ''), 
-#                'item_id' : itemid, 
-#                'title' : item_content.get('title', '')
-#                }
     else:
         return {}
     
