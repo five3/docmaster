@@ -1,6 +1,10 @@
-测试综合
+测试综合文档
 ===
-模板
+书籍、模板
+
+管理工具：
+===
+DataMaster
 
 性能测试工具
 ===
@@ -8,10 +12,12 @@ PerformanceMonitor
 
 自动化测试工具
 ===
-DDAP、APIOW、DataMaster、WAS、WTP
+DDAP、APIOW、WAS、WTP
 
 Selenium文档
 ===
-document、book、pythonDoc、javaDoc
+document、pythonDoc、javaDoc
 
-
+SeleniumBook
+===
+看项目项目
