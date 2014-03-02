@@ -48,11 +48,8 @@ class Login:
         return render.login()
     
     def POST(self):
-        post_data = web.input()
-        if auth(post_data, web.config._session.user):
-            return web.seeother("/docmaster/manage")
-        else:
-            return web.seeother("/docmaster/login")
+        post_data = web.input()                      
+        return LoginDistribution.assign(post_data)
         
 class Tool:
     def GET(self):
@@ -61,6 +58,10 @@ class Tool:
     def POST(self):
         return this.Get()       
     
-class robot:
-    def GET(self):
-        web.seeother('/static/docServer/robots.txt')
+class sitemap:
+    def GET(self, ext):
+        if ext.strip()=='.txt':
+            web.seeother('/static/docServer/sitemap.txt')
+        if ext.strip()=='.xml':    
+            web.seeother('/static/docServer/sitemap.xml')
+            

@@ -2,10 +2,11 @@ $def with(data_dict)
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="zh-CN">
 	<head>
-		<title>$data_dict['render_content'].get('title', '首页') testDoc-测试文档</title>
+		<title>$data_dict['render_content'].get('title', '首页') testdoc-测试文档</title>
 			<meta charset="utf-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="google-site-verification" content="xcuGH6lm6MiP0xBEaoujllMT-fQDQwQ0gZ-v5VMH9ig" />
 			<link rel="shortcut icon" href="/static/common/images/favicon.ico">
 			<!-- Bootstrap CSS Files-->
 			<link rel="stylesheet" href="/static/common/css/bootstrap/bootstrap.min.css">
@@ -27,7 +28,7 @@ $def with(data_dict)
 		  <span class="icon-bar"></span>
 		  <span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand" href="#">testDoc-测试文档</a>
+		<a class="navbar-brand" href="#">testdoc-测试文档</a>
 	  </div>
 
 	  <!-- Collect the nav links, forms, and other content for toggling -->
@@ -46,9 +47,9 @@ $def with(data_dict)
 		</ul>
 		<form class="navbar-form navbar-right" role="search" action="/docmaster/search">
 		  <div class="form-group">
-			<input type="text" class="form-control" placeholder="找点什么...">
+			<input type="text" class="form-control" id="searchtxt" placeholder="找点什么...">
 		  </div>
-		  <button type="submit" onclick="alert('搜你妹的，还没做好呢！^_^');" class="btn btn-primary">搜索</button>
+		  <button type="button" onclick="window.open('https://www.google.com.hk/search?q=site:testdoc.org+'+$$('#searchtxt').val());" class="btn btn-primary">搜索</button>
 		</form>
 	  </div><!-- /.navbar-collapse -->
 	  </div>

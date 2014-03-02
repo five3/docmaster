@@ -35,7 +35,7 @@ def islogin(user_dict):
     else:
         return True
     
-def auth(post_data, user_dict):
+def user_auth(post_data, user_dict):
     email = post_data.get('email', '')
     passwd = post_data.get('passwd', '')
     if email=='five3@163.com' and passwd=='111111':
@@ -47,11 +47,13 @@ def auth(post_data, user_dict):
     else:
         return False
 
-def makerobot(makeids):   
-    turls = []
-    for line in makeids:
-        turls.append('http://testdoc.org/docmaster?pid=%s&item_id=%s\n' % (line.pid, line.id))     
-    f = open('./static/docServer/sitemap.txt', 'w')
-    f.writelines(turls)
-    print __file__
-    return True
+def makesitemaptxt(makeids):   
+    turls = ['http://seleniumhq.testdoc.org\n']
+    try:
+        for line in makeids:
+            turls.append('http://testdoc.org/docmaster?pid=%s&item_id=%s\n' % (line.pid, line.id))     
+        f = open('./static/docServer/sitemap.txt', 'w')
+        f.writelines(turls)
+        return True
+    except(e):
+        return False

@@ -8,14 +8,14 @@ def assign(post_data):
     errorcode = -1
     message = '无成功操作'
     type = post_data.get('type', '')
-    if type == 'makerobot':
+    if type == 'sitemaptxt':
         makeids = get_pids_with_itemid()         
-        if makerobot(makeids):
+        if makesitemaptxt(makeids):
             errorcode = 0
-            message = '生成搜索引擎文件成功!'
+            message = '生成sitemap文件成功!'
         else:
             errorcode = 1000
-            message = '生成搜索引擎文件失败！'
+            message = '生成sitemap文件失败！'
     return {
             'errorcode' : errorcode, 
             'message' : message,

@@ -1,37 +1,22 @@
 #!/usr/bin/env python
 # coding: utf-8
 from libs.utils import *
-from models.Base import query as querydb
-
-def assign(post_data): 
-    if post_data.get('type', '') == 'db':
-        query_set = search_in_db(post_data)
-        if query_set:
-            return {
-                'data' : model_to_object(query_set), 
-                'errorCode' : 0, 
-                'message' : ''                   
-                }            
-        else:
-            return {
-                'html' : '', 
-                'errorCode' : -2, 
-                'message' : '没有搜索到内容！'                   
-                }
-    else:
-        return {
-            'html' : '', 
-            'errorCode' : -1, 
-            'message' : '传输的参数类型错误！'
-            }
+from models.Login import *
+import web
+def assign(post_data):
+    import time     
+    email = post_data.get('email', '')
+    t = time.strftime('%Y-%m-%d',time.localtime(time.time()))
+    name = email+t
+    times = get_fail_times(name)
+    if times<3 and user_auth(post_data, web.config._session.user):         
+        ip = web.ctx.env.get('REMOTE_ADDR')                  
+        login_record(ip)
+        return web.seeother("/docmaster/manage")
+    else:            
+        login_fail(name, times+1)
+        return web.seeother("/docmaster/login")
     
-def search_in_db(post_data):
-    table_name = post_data.get('table_name', '')
-    what = post_data.get('what', '')
-    where = post_data.get('where', '')
-    query = post_data.get('query', '')
-    if not query.strip():
-        query = 'select %s from %s where %s' % [what, table_name, where]
-    query_set = querydb(query)
-    return query_set
+
+
     
