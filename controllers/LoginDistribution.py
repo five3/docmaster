@@ -10,7 +10,7 @@ def assign(post_data):
     name = email+t
     times = get_fail_times(name)
     if times<3 and user_auth(post_data, web.config._session.user):         
-        ip = web.ctx.env.get('REMOTE_ADDR')                  
+        ip = web.ctx.env.get('HTTP_X_FORWARDED_FOR')                  
         login_record(ip)
         return web.seeother("/docmaster/manage")
     else:            
