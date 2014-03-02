@@ -137,3 +137,8 @@ small {
 .size-sm {
 	font-size: 12px;
 }
+
+img { 
+	max-width : 100%;
+	cursor : pointer;
+}

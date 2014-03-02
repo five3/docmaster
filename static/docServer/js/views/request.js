@@ -31,3 +31,7 @@ function addItem(){
 	if ($.trim(content)==''){ alert('子项描述不能为空！'); return ;}
 	submitAction('item_form', '/docmaster/manage', showSubmit);
 }
+function makerobot(){
+	data = 'type=makerobot';
+	ajaxGet('/docmaster/tool', data, show_response);
+}

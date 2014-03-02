@@ -46,4 +46,12 @@ def auth(post_data, user_dict):
         return True
     else:
         return False
-    
+
+def makerobot(makeids):   
+    turls = []
+    for line in makeids:
+        turls.append('http://testdoc.org/docmaster?pid=%s&item_id=%s\n' % (line.pid, line.id))     
+    f = open('./static/docServer/sitemap.txt', 'w')
+    f.writelines(turls)
+    print __file__
+    return True

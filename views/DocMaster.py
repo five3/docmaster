@@ -3,11 +3,15 @@
 import web
 from config import settings
 from libs.utils import *
-from controllers import HomeDistribution, ManageDistribution, SearchDistribution,LoginDistribution
+from controllers import HomeDistribution, ManageDistribution, SearchDistribution,LoginDistribution, ToolDistribution
 
 render = settings.render
 db = settings.db
 
+class Index:
+    def GET(self):
+        return web.seeother('/docmaster')
+    
 class Home:
     def GET(self):
         user_dict = web.config._session.user
@@ -49,5 +53,14 @@ class Login:
             return web.seeother("/docmaster/manage")
         else:
             return web.seeother("/docmaster/login")
-            
+        
+class Tool:
+    def GET(self):
+        post_data = web.input()
+        return object_to_json(ToolDistribution.assign(post_data))
+    def POST(self):
+        return this.Get()       
     
+class robot:
+    def GET(self):
+        web.seeother('/static/docServer/robots.txt')

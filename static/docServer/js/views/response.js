@@ -28,3 +28,10 @@ function showProjectList(rep){
 		updateSelect('project_list', json.data);
 	}	
 }
+function show_response(rep){
+	var json = eval(rep)[0];
+	alert(json.message);
+	if (json.errorCode == 0){
+		refresh();
+	}	
+}
