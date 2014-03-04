@@ -5,7 +5,7 @@ import web
 import os
 #web.config.debug = False
 web.config.session_parameters['timeout'] = 86400 #24 * 60 * 60, # 24 hours   in seconds
-web.config.session_parameters['ignore_expiry'] = False
+web.config.session_parameters['ignore_expiry'] = True  ##ignore expiry 
 web.config['static_dir'] = os.getenv("RESOURCE_SERVER_ROOT", "../resourceServer/static")
 web.config['work_dir'] = os.getcwd()
 
