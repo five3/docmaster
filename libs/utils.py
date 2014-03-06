@@ -57,3 +57,18 @@ def makesitemaptxt(makeids):
         return True
     except(e):
         return False
+
+def logip():
+    import web
+    from models.Trace import log
+    rinfo = web.ctx.env
+    ip = rinfo.get('REMOTE_ADDR')
+    if ip=='127.0.0.1':
+        ip = rinfo.get('HTTP_X_FORWARDED_FOR', ip)
+    method = rinfo.get('REQUEST_METHOD')
+    path = rinfo.get('PATH_INFO')
+    from urllib import urlencode
+    data = urlencode(web.input()).replace("'", "\'")
+    agent = rinfo.get('HTTP_USER_AGENT')
+    log(ip, method, path, data, agent)
+    

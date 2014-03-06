@@ -14,17 +14,20 @@ class Index:
     
 class Home:
     def GET(self):
+        logip()
         user_dict = web.config._session.user
         render_content = HomeDistribution.assign(web.input())
         data_dict = bind_data(user_dict, 'home')
         data_dict['render_content'] = render_content
         return render.home(data_dict)
     
-    def POST(self):        
+    def POST(self):  
+        logip()      
         return object_to_json(HomeDistribution.assign(web.input()))
            
 class Manage:
     def GET(self):
+        logip()
         user_dict = web.config._session.user
         if not islogin(user_dict):
             return render.login()        
@@ -33,7 +36,8 @@ class Manage:
         data_dict['render_content'] = render_content
         return render.manage(data_dict)
     
-    def POST(self):        
+    def POST(self):  
+        logip()      
         return object_to_json(ManageDistribution.assign(web.input()))
         
 class Search:
@@ -41,18 +45,22 @@ class Search:
         self.POST();
     
     def POST(self):
+        logip()
         return object_to_json(SearchDistribution.assign(web.input()))
 
 class Login:
     def GET(self):
+        logip()
         return render.login()
     
     def POST(self):
+        logip()
         post_data = web.input()                      
         return LoginDistribution.assign(post_data)
         
 class Tool:
     def GET(self):
+        logip()
         post_data = web.input()
         return object_to_json(ToolDistribution.assign(post_data))
     def POST(self):
@@ -60,6 +68,7 @@ class Tool:
     
 class sitemap:
     def GET(self, ext):
+        logip()
         if ext.strip()=='.txt':
             web.seeother('/static/docServer/sitemap.txt')
         if ext.strip()=='.xml':    
