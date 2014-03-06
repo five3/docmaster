@@ -30,7 +30,7 @@ class Manage:
         logip()
         user_dict = web.config._session.user
         if not islogin(user_dict):
-            return render.login()        
+            return web.seeother('/docmaster/login')        
         render_content = ManageDistribution.assign(web.input())
         data_dict = bind_data(user_dict, 'manage')
         data_dict['render_content'] = render_content
